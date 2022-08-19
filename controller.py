@@ -1,4 +1,5 @@
 import pygame,model
+pygame.key.set_repeat(50)
 def control():
     coffin_dance = pygame.event.get()
     for i in coffin_dance:
